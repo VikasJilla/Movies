@@ -1,0 +1,48 @@
+name: movies
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  json_annotation: ^4.8.0
+  logger: ^1.2.2
+  equatable: ^2.0.3
+
+  # network libraries
+  dio: ^5.0.1
+  internet_connection_checker: ^1.0.0+1
+  # dependency injection
+  kiwi: ^4.1.0
+  # storage libaries
+  get_storage: ^2.1.1
+  #UI
+  cupertino_icons: ^1.0.5
+  #state management
+  flutter_bloc: ^8.1.2
+  
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  # build tools to generate helper functions for models
+  build_runner: ^2.3.3 
+  json_serializable: ^6.6.1 
+  mockito: ^5.3.2
+  network_image_mock: ^2.1.0
+  
+  
+
+flutter:
+  uses-material-design: true
